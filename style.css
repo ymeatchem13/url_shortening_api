@@ -1,0 +1,39 @@
+.container {
+    height: 100%;   
+    margin: 0;
+    padding: 0;
+
+    /* Landing Page */
+    .landing-page {
+        height: 80vh;
+
+        .nav-item {
+            color: #9E9AA8;
+        }
+
+        .btn-secondary {
+            border: none;
+        }
+        .btn-info {
+            border-radius: 20px;
+        }
+    }
+
+    /* Advanced Statistics */
+    .statistics-page {
+        height: 80vh;
+    }
+
+    /* Boost Page */
+    .boost-page {
+        height: 25vh;
+    }
+
+    /* Footer */
+    .footer {
+        height: 30vh;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
